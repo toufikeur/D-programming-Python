@@ -1,0 +1,17 @@
+from numpy import*
+a=array([1,2,3,4,5,6,7,8])
+b=reshape(a,(2,4))
+c=reshape(a,(4,2))
+d=reshape(a,(2,2,2))
+print(a)
+print(b)
+print(c)
+print(d)
+
+e=array([[1,2,3,4],[5,6,7,8]])
+f=reshape(e,8)
+print(e)
+print(f)
+print("after flatten ,it works as a one D array")
+g=e.flatten()
+print(g)
