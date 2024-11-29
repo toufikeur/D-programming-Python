@@ -1,0 +1,14 @@
+name= "Ridoy"
+
+print(name[1:-1]);
+print(name.upper())
+
+temp =30
+
+if temp>30:
+    print("It's a hot day")
+else:
+    print("it's not a hot day")
+
+
+print("How are you mr Toufike-Ur-Rahman Ridoy")
